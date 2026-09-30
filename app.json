@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Perfil3_JoshuaMarinero",
+    "slug": "Perfil3_JoshuaMarinero",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.joshuamarinero.perfil3",
+      "adaptiveIcon": {
+        "backgroundColor": "#221610",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#221610"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "282bdc38-7d38-4228-9d48-3c4921d0d478"
+      }
+    }
+  }
+}
